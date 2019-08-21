@@ -1,0 +1,142 @@
+header {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  font-size: 50px;
+  background-image: url("red.mercedes.webp");
+  background-repeat: no-repeat;
+  background-size: 250px 100%;
+  background-position: right;
+  margin-top: -75px;
+}
+aside {
+  color: black;
+}
+.button {
+    background-color: red;
+    border: none;
+    color:white;
+    padding: 0px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: -40px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    background-size: 100%
+}
+
+* {
+    font-family: 'Cinzel', serif; 
+}
+h1 {
+    position: absolute;
+    margin-block-start: .1em;
+    margin-block-end: 0;
+    font-size: 1.5em;
+    color: red;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    display: grid;
+  }
+  .topnav a {
+    float: left;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: black;
+    color: white;
+  }
+  body {
+    background-color: white;
+  }
+  a:link, a:visited:hover {
+    background-color: black;
+    color: #4CAF50;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  body {
+    font-family: Helvetica, sans-serif;
+    padding: 5%;
+    text-align: center;
+  }
+  
+  #slideshow {
+    overflow: hidden;
+    height: 400px;
+    width: 728px;
+    margin: auto auto;
+  }
+  
+  .slide-wrapper {
+    width: 3000px;
+    -webkit-animation: slide 18s ease infinite;
+  }  
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+  
+  .slide:nth-child(1) {
+    background-image: url("audi-2019.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .slide:nth-child(2) {
+    background-image: url("lambo-2019.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .slide:nth-child(3) {
+    background-image: url("mclaren1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .slide:nth-child(4) {
+    background-image: url("rolls-royce.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+  .buttons {
+    display: grid;
+    grid-column: 1 / 7;
+  }
+
+  
